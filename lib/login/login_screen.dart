@@ -39,7 +39,7 @@ class LoginScreen extends StatelessWidget {
                         },
                       ),
                       SizedBox(height: 5.h),
-                      Text("  Login\n  into Your Account",
+                      Text("  Welcome\\n  Login\\n  into Your Account",
                           style: textTheme.headline1),
                     ],
                   ),
