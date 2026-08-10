@@ -18,7 +18,7 @@ class HomePageScreen extends StatefulWidget {
 }
 
 class _HomePageScreenState extends State<HomePageScreen> {
-  String appBarTitle = "Welcome XYZ";
+  String appBarTitle = "Welcome Home";
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -64,7 +64,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                   setState(() {
                     switch (index) {
                       case 0:
-                        appBarTitle = "Welcome XYZ";
+                        appBarTitle = "Welcome Home";
                         break;
                       case 1:
                         appBarTitle = "Messages";
